@@ -333,6 +333,10 @@ void parseConfig(Config & config) {
         if (tryConfig(home + std::string("/.config") + conf, config)) {
             return;
         }
+
+        if (tryConfig(home + std::string("/.terminolrc"), config)) {
+            return;
+        }
     }
 
     std::cerr << "No configuration file found." << std::endl;

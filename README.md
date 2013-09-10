@@ -50,7 +50,8 @@ You may wish to create a config file like the following:
     #   ${XDG_CONFIG_HOME}/terminol/config
     #   ${XDG_CONFIG_DIRS...}/terminol/config
     #   ${HOME}/.config/terminol/config
-    
+    #   ${HOME}/.terminolrc
+
     set server-fork true
     
     set color-scheme solarized-dark
